@@ -6,7 +6,7 @@ export default function Todos() {
   const dispatch = useDispatch();
   return (
     <>
-      <div className="text-black font-bold">Todos</div>
+      <div className="text-white font-bold mt-5">Todos</div>
       <ul className="list-none">
         {todos.map((todo) => (
           <li
